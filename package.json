@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matt765/Tailcast"
+    "url": "https://github.com/themewagon/tailcast"
   },
-  "homepage": "https://tailcast.vercel.app",
+  "homepage": "https://themewagon.github.io/tailcast/",
   "bugs": "https://github.com/matt765/Tailcast/issues",
   "keywords": [
     "astro",
