@@ -28,7 +28,7 @@ const formatDate = (date: Date) =>
         <!-- Featured + sidebar -->
         <div class="mb-16 flex flex-col gap-8 lg:flex-row">
           <!-- Featured post (left) -->
-          <a href={`/blog/${featuredPost.id}`} class="group lg:w-3/5">
+          <a href={`/tailcast/blog/${featuredPost.id}`} class="group lg:w-3/5">
             <article
               class="card flex h-full flex-col overflow-hidden rounded-3xl transition lg:min-h-full"
             >
@@ -67,7 +67,7 @@ const formatDate = (date: Date) =>
             {
               sidebarPosts.map((post) => (
                 <a
-                  href={`/blog/${post.id}`}
+                  href={`/tailcast/blog/${post.id}`}
                   class="group card flex items-center gap-4 p-4 transition"
                 >
                   <div class="bg-bgDark1Lighter flex h-20 w-20 shrink-0 items-center justify-center rounded-xl">
@@ -97,7 +97,7 @@ const formatDate = (date: Date) =>
         <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {
             gridPosts.map((post) => (
-              <a href={`/blog/${post.id}`} class="group">
+              <a href={`/tailcast/blog/${post.id}`} class="group">
                 <article class="card flex h-full flex-col overflow-hidden rounded-3xl transition">
                   <div class="p-4">
                     <div class="bg-bgDark1Lighter flex aspect-[3/2] items-center justify-center overflow-hidden rounded-2xl">
